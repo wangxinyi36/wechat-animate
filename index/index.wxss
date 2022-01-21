@@ -1,0 +1,33 @@
+/**index.wxss**/
+.header {
+  background-color: aquamarine;
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+  position: fixed;
+  width: 100%;
+  transform-origin: 0 0 0 !important;
+}
+
+.back {
+  background-color: aquamarine;
+  text-align: left;
+  padding-left: 30rpx;
+  position: fixed;
+  width: 100%;
+  transform-origin: 0 0 0 !important;
+  transform: scale(0);
+}
+
+.banner {
+  width: 100%;
+  height: 400rpx;
+  background-color: burlywood;
+}
+
+.item {
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  border-bottom: 1rpx solid blueviolet;
+}

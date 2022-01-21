@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="header" animation="{{animateOneData}}" style="padding-top: {{statusBarHeight}}px;">个人主页</view>
+<view class="back" style="height: {{menuBtnHeight}}px;line-height: {{menuBtnHeight + statusBarHeight}}px;" animation="{{animateTwoData}}">返回</view>
+
+<view class="banner" style="padding-top:{{50+statusBarHeight}}px">1</view>
+<view>
+  <view class="item item{{index}}" wx:for="{{40}}" wx:key="index">{{item + 1}}</view>
+</view>
